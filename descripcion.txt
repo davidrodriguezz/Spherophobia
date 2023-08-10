@@ -1,0 +1,14 @@
+En el ejercicio 1, lo que he hecho es duplicar nuestro personaje inicial, cambiarle el color del material a azul y eliminar estos componentes
+(character input controller, character movemnet controller y character attack controller).
+
+En el ejercicio 2, he creado un script (IA character movement controller) en el que el jugador cada 3 segundos cambia su dirección de movimiento y su rotación en unos grados determinados.
+
+En el ejercicio 3, he creado un script (IA character attack controller) en el que se detecta, mediante un trigger si los enemigos están dentro de su rango, para así poder dispararle.
+
+En el ejercicio 4, he creado dentro del objeto Main Menu un botón con texto Watch de color gris.
+
+En el ejercicio 5, he modificado el UI Manager anadiendo un método WatchMatch() que llama al GameManager WatchMatch(), me cerciono que este método (el del Ui Manager)
+sea llamado en el Onclick() del botón Watch. Dependiendo de a que modo de juego le demos, elmininará un player u otro.
+
+En el el ejercicio 6, he modificado el camera movement controller, de tal forma que la camera recibe que player tiene que seguir. El gameObject que tiene que seguir se lo proporciona el gamemanager
+dependiendo de que modo hayamos escogido.
